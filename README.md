@@ -22,9 +22,7 @@ distinct from missing data throughout.
 | `prepare_hunting_join.ipynb` | Clean the raw statistics, keep the wanted metrics, rename columns to English, convert `NULL`→blank, split to per-year CSVs. |
 | `aggregate_to_hexgrid_mean.ipynb` | **Core pipeline.** Read the geodatabase, drop non-hunting units, compute density, aggregate to the hexagonal grid (mean-density method), and validate. Produces the GeoPackage. |
 | `resolution_sensitivity.ipynb` | Test candidate hexagon sizes (grounds-per-cell, single-ground share, variogram) to justify the 8.5 km resolution. |
-| `development_maps.ipynb` | Render the publication maps (per species × harvest/census, fixed per-species scale, 2003–2022) as PDF/PNG. |
-| `make_deposit_files.ipynb` | Build the open-repository files: long-format `hex_id`-linked CSV + geometry-only layer (GeoPackage + GeoJSON). |
-| `requirements.txt` | Python dependencies. |
+ `requirements.txt` | Python dependencies. |
 | `LICENSE` | Code licence. |
 | `CITATION.cff` | How to cite this repository. |
 
