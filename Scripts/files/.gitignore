@@ -1,0 +1,18 @@
+# outputs / large data (deposit these on Zenodo, not GitHub)
+*.gpkg
+*.geojson
+*.csv
+*.csv.gz
+maps/
+outputs/
+hex_aggregated/
+
+# notebooks / python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# OS
+.DS_Store
